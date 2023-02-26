@@ -3,8 +3,10 @@ package com.prototype.sejong.repository;
 import com.prototype.sejong.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import java.util.List;
+
 public interface UserJpaRepository extends JpaRepository<User, Long> {
-    User findByName(String name);
+    List<User> findByName(String name);
 
     User findByEmail(String email);
 }
