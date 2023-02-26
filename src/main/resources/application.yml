@@ -1,1 +1,14 @@
-
+spring:
+  freemarker:
+    template-loader-path: classpath:/templates
+    suffix: .ftl
+  datasource:
+    url: jdbc:mariadb://localhost:3306/sampledb
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: sa
+    password: 6h5g4f#D@S!A
+  jpa:
+    database-platform: org.hibernate.dialect.MariaDB103Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: create
