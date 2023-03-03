@@ -1,5 +1,6 @@
 package com.prototype.sejong.util;
 
+import com.prototype.sejong.global.util.LottoNumberGenerator;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package com.prototype.sejong.config;
+package com.prototype.sejong.global.config;
 
 
 import org.springframework.context.annotation.Bean;
@@ -9,13 +9,14 @@ import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 // http://localhost:8080/swagger-ui/index.html
 @Configuration
 public class SwaggerConfig {
     @Bean
     public Docket api() {
-        return new Docket(DocumentationType.OAS_30)
+        return new Docket(DocumentationType.SWAGGER_2)
                 .useDefaultResponseMessages(false)      // 기본 셋팅값인 200, 401, 402, 403, 404를 사용하지 않는다.
                 .apiInfo(apiInfo())
                 .select()
@@ -29,7 +30,7 @@ public class SwaggerConfig {
         return new ApiInfoBuilder()
                 .title("User Rest API Documentation")
                 .description("User Rest API")
-                .version("1")
+                .version("1.0.0")
                 .build();
     }
 }

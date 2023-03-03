@@ -8,7 +8,7 @@ import lombok.Setter;
 @Setter
 public class CommonResult {
 
-    @ApiModelProperty(value = "응답 성공 여부 : T/F")
+    @ApiModelProperty(value = "응답 성공 여부 : True/False")
     private boolean success;
 
     @ApiModelProperty(value = "응답 코드: >= 0 정상, < 0 비정상")

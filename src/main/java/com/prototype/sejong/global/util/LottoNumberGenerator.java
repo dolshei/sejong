@@ -1,4 +1,4 @@
-package com.prototype.sejong.util;
+package com.prototype.sejong.global.util;
 
 import java.util.List;
 import java.util.Random;
