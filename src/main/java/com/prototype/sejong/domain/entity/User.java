@@ -1,4 +1,4 @@
-package com.prototype.sejong.entity;
+package com.prototype.sejong.domain.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

@@ -1,6 +1,6 @@
 package com.prototype.sejong.controller;
 
-import com.prototype.sejong.entity.Hello;
+import com.prototype.sejong.domain.entity.Hello;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;

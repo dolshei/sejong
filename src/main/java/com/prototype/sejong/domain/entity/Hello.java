@@ -1,4 +1,4 @@
-package com.prototype.sejong.entity;
+package com.prototype.sejong.domain.entity;
 
 import lombok.Getter;
 import lombok.Setter;
