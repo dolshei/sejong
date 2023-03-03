@@ -26,6 +26,8 @@ dependencies {
     implementation 'io.springfox:springfox-boot-starter:3.0.0'
     // https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui
     implementation 'io.springfox:springfox-swagger-ui:3.0.0'
+    // https://mvnrepository.com/artifact/dev.akkinoc.util/yaml-resource-bundle
+    implementation 'dev.akkinoc.util:yaml-resource-bundle:2.8.0'
     runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'

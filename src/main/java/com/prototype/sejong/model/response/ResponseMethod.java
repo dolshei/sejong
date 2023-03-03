@@ -31,17 +31,18 @@ public class ResponseMethod {
     }
 
     // 실패 결과만 처리
-    public CommonResult getFailResult() {
+    public CommonResult getFailResult(int code, String msg) {
         CommonResult result = new CommonResult();
-        setFailResult(result);
+        result.setSuccess(false);
+        setFailResult(result, code, msg);
         return result;
     }
 
     // API 요청 실패 시 응답 모델을 실패 데이터로 셋팅
-    private void setFailResult(CommonResult result) {
+    private void setFailResult(CommonResult result, int code, String msg) {
         result.setSuccess(false);
-        result.setCode(CommonResponse.FAIL.getCode());
-        result.setMsg(CommonResponse.FAIL.getMsg());
+        result.setCode(code);
+        result.setMsg(msg);
     }
 
     // API 요청 성공 시 응답 모델을 성공 데이터로 셋팅

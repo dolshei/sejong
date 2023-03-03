@@ -18,3 +18,6 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+  messages:
+    basename: i18n/exception
+    encoding: UTF-8
