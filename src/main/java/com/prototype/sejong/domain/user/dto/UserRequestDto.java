@@ -1,6 +1,6 @@
-package com.prototype.sejong.domain.dto;
+package com.prototype.sejong.domain.user.dto;
 
-import com.prototype.sejong.domain.entity.User;
+import com.prototype.sejong.domain.user.entity.User;
 import lombok.*;
 
 @Getter

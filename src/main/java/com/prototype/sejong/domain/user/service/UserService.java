@@ -1,7 +1,7 @@
-package com.prototype.sejong.service;
+package com.prototype.sejong.domain.user.service;
 
-import com.prototype.sejong.domain.dto.UserRequestDto;
-import com.prototype.sejong.domain.dto.UserResponseDto;
+import com.prototype.sejong.domain.user.dto.UserRequestDto;
+import com.prototype.sejong.domain.user.dto.UserResponseDto;
 
 import java.util.List;
 

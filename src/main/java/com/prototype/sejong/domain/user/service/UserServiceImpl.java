@@ -1,10 +1,10 @@
-package com.prototype.sejong.service;
+package com.prototype.sejong.domain.user.service;
 
-import com.prototype.sejong.domain.dto.UserRequestDto;
-import com.prototype.sejong.domain.dto.UserResponseDto;
-import com.prototype.sejong.domain.entity.User;
+import com.prototype.sejong.domain.user.dto.UserRequestDto;
+import com.prototype.sejong.domain.user.dto.UserResponseDto;
+import com.prototype.sejong.domain.user.entity.User;
 import com.prototype.sejong.global.error.UserNotFoundException;
-import com.prototype.sejong.repository.UserJpaRepository;
+import com.prototype.sejong.domain.user.repository.UserJpaRepository;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;

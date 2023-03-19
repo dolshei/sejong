@@ -18,6 +18,10 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+  cache:
+    type: redis
+    redis:
+      cache-null-values: true
   messages:
     basename: i18n/exception
     encoding: UTF-8

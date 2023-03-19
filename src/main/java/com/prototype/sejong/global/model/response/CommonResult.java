@@ -1,4 +1,4 @@
-package com.prototype.sejong.model.response;
+package com.prototype.sejong.global.model.response;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;

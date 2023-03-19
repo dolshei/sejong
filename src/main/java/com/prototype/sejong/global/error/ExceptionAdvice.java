@@ -1,7 +1,7 @@
 package com.prototype.sejong.global.error;
 
-import com.prototype.sejong.model.response.CommonResult;
-import com.prototype.sejong.model.response.ResponseMethod;
+import com.prototype.sejong.global.model.response.CommonResult;
+import com.prototype.sejong.global.model.response.ResponseMethod;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.MessageSource;

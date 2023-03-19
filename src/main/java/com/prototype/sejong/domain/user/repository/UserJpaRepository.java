@@ -1,6 +1,6 @@
-package com.prototype.sejong.repository;
+package com.prototype.sejong.domain.user.repository;
 
-import com.prototype.sejong.domain.entity.User;
+import com.prototype.sejong.domain.user.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

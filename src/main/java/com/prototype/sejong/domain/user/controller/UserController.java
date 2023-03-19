@@ -1,12 +1,12 @@
-package com.prototype.sejong.controller;
+package com.prototype.sejong.domain.user.controller;
 
-import com.prototype.sejong.domain.dto.UserRequestDto;
-import com.prototype.sejong.domain.dto.UserResponseDto;
-import com.prototype.sejong.model.response.CommonResult;
-import com.prototype.sejong.model.response.ListResult;
-import com.prototype.sejong.model.response.ResponseMethod;
-import com.prototype.sejong.model.response.SingleResult;
-import com.prototype.sejong.service.UserService;
+import com.prototype.sejong.domain.user.dto.UserRequestDto;
+import com.prototype.sejong.domain.user.dto.UserResponseDto;
+import com.prototype.sejong.global.model.response.CommonResult;
+import com.prototype.sejong.global.model.response.ListResult;
+import com.prototype.sejong.global.model.response.ResponseMethod;
+import com.prototype.sejong.global.model.response.SingleResult;
+import com.prototype.sejong.domain.user.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;

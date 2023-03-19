@@ -1,4 +1,4 @@
-package com.prototype.sejong.model.response;
+package com.prototype.sejong.global.model.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

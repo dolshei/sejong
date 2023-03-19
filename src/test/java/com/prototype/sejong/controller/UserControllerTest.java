@@ -1,18 +1,14 @@
 package com.prototype.sejong.controller;
 
-import com.prototype.sejong.domain.dto.UserRequestDto;
-import com.prototype.sejong.domain.dto.UserResponseDto;
-import com.prototype.sejong.domain.entity.User;
-import com.prototype.sejong.repository.UserJpaRepository;
-import com.prototype.sejong.service.UserService;
-import org.assertj.core.api.Assertions;
+import com.prototype.sejong.domain.user.dto.UserRequestDto;
+import com.prototype.sejong.domain.user.repository.UserJpaRepository;
+import com.prototype.sejong.domain.user.service.UserService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
 import java.time.LocalDateTime;
-import java.util.List;
 
 @Controller
 public class UserControllerTest {
